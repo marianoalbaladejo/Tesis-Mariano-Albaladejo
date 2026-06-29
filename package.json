@@ -2,11 +2,11 @@
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
-	"homepage": "https://marianoalbaladejo.github.io/Tesis-Mariano-Albaladejo/",
+	"homepage": "https://marianoalbaladejo.github.io",
 	"author": {
 		"name": "Mariano Albaladejo González",
 		"email": "mariano.albaladejog@um.es",
-		"url": "https://marianoalbaladejo.github.io/Tesis-Mariano-Albaladejo/"
+		"url": "https://marianoalbaladejo.github.io"
 	},
 	"license": "MIT",
 	"private": true,

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tesis-Mariano-Albaladejo/static/css/main.c1ea095c.css",
-    "main.js": "/Tesis-Mariano-Albaladejo/static/js/main.21825577.js",
-    "static/js/453.d99a8d2b.chunk.js": "/Tesis-Mariano-Albaladejo/static/js/453.d99a8d2b.chunk.js",
-    "index.html": "/Tesis-Mariano-Albaladejo/index.html",
-    "main.c1ea095c.css.map": "/Tesis-Mariano-Albaladejo/static/css/main.c1ea095c.css.map",
-    "main.21825577.js.map": "/Tesis-Mariano-Albaladejo/static/js/main.21825577.js.map",
-    "453.d99a8d2b.chunk.js.map": "/Tesis-Mariano-Albaladejo/static/js/453.d99a8d2b.chunk.js.map"
+    "main.css": "/static/css/main.c1ea095c.css",
+    "main.js": "/static/js/main.b58b52be.js",
+    "static/js/453.d99a8d2b.chunk.js": "/static/js/453.d99a8d2b.chunk.js",
+    "index.html": "/index.html",
+    "main.c1ea095c.css.map": "/static/css/main.c1ea095c.css.map",
+    "main.b58b52be.js.map": "/static/js/main.b58b52be.js.map",
+    "453.d99a8d2b.chunk.js.map": "/static/js/453.d99a8d2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ea095c.css",
-    "static/js/main.21825577.js"
+    "static/js/main.b58b52be.js"
   ]
 }
