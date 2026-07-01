@@ -4,8 +4,20 @@
 	--secondary-color: #65656d;
 	--tertiary-color: #acacb4;
 	--quaternary-color: #e4e4e7;
-	--link-color: #14b8a6;
+	--link-color: #1d4ed8;
 	/* ---------------------- */
+
+	/* ------- elegant blue palette ------- */
+	--blue-ink: #0b2545;       /* deep navy — headings */
+	--blue-primary: #1d4ed8;   /* sapphire accent */
+	--blue-bright: #3b82f6;    /* soft/hover blue */
+	--blue-steel: #3b6ea5;     /* muted supporting blue */
+	--blue-mist: #eef3fb;      /* pale tint background */
+	--blue-mist-2: #e2ecfa;    /* slightly deeper tint */
+	--blue-border: #d7e3f4;    /* hairline borders */
+	--blue-glow: rgba(29, 78, 216, 0.18);
+	--blue-gradient: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+	/* ------------------------------------ */
 
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;

@@ -31,7 +31,7 @@ const Articles = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="articles" />
+				<NavBar active="related-works" />
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">

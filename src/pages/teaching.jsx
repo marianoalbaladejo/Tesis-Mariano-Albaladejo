@@ -12,7 +12,7 @@ import myArticles from "../data/articles";
 
 import "./styles/articles.css";
 
-const Contact = () => {
+const Teaching = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -66,7 +66,7 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="related-works" />
+				<NavBar active="teaching" />
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">
@@ -112,4 +112,4 @@ const Contact = () => {
 };
 
 
-export default Contact;
+export default Teaching;

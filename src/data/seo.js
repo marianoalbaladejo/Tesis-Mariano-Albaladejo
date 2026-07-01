@@ -28,7 +28,7 @@ const SEO = [
 	},
 
 	{
-		page: "contact",
+		page: "teaching",
 		description:
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
 		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
