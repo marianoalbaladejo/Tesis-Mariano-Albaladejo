@@ -4,81 +4,104 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import myArticles from "../data/articles";
 
-import "./styles/contact.css";
+import "./styles/articles.css";
 
 const Contact = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "contact");
+
+	const currentSEO = SEO.find((item) => item.page === "articles");
+
+	// Estructura limpia: Asignatura a la izquierda, cursos a la derecha y solo el grado en la descripción
+	const teachingExperience = [
+		{
+			title: "Big Data and Data Mining",
+			date: "2023/2024, 2024/2025, 2025/2026",
+			description: "Degree in Information Management and Digital Content."
+		},
+		{
+			title: "Business Intelligence",
+			date: "2024/2025, 2025/2026",
+			description: "Degree in Information Management and Digital Content."
+		},
+		{
+			title: "Introduction to Data Science in Artificial Intelligence",
+			date: "2022/2023, 2023/2024",
+			description: "Degree in Data Science and Engineering."
+		},
+		{
+			title: "Programming Fundamentals",
+			date: "2022/2023",
+			description: "Degree in Mathematics."
+		},
+		{
+			title: "Learning Analytics and Educational Data Mining",
+			date: "2025/2026",
+			description: "Degree in Data Science and Engineering."
+		},
+		{
+			title: "Data Processing and Visualization",
+			date: "2022/2023",
+			description: "Degree in Information Management and Digital Content."
+		}
+	];
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
+				<title>{`Teaching Experience | ${INFO.main.title}`}</title>
+				<meta name="description" content={currentSEO ? currentSEO.description : "Teaching experience and academic involvement during my PhD."} />
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
+					content={currentSEO ? currentSEO.keywords.join(", ") : "teaching, university, data science, big data"}
 				/>
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				<NavBar active="related-works" />
 				<div className="content-wrapper">
-					<div className="contact-logo-container">
-						<div className="contact-logo">
+					<div className="articles-logo-container">
+						<div className="articles-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 
-					<div className="contact-container">
-						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+					<div className="articles-main-container">
+						<div className="title articles-title">
+							Teaching Experience
 						</div>
 
-						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+						<div className="subtitle articles-subtitle">
+							Overview of the undergraduate courses and laboratory sessions I have taught during my pre-doctoral research period at the University of Murcia.
+						</div>
+
+						<div className="articles-container">
+							<div className="articles-wrapper">
+								{teachingExperience.map((course, index) => (
+									<div
+										className="articles-article"
+										key={(index + 1).toString()}
+									>
+										{/* Se quita la prop 'link' para deshabilitar o eliminar la acción de "Read Article" según el componente base */}
+										<Article
+											key={(index + 1).toString()}
+											date={course.date}
+											title={course.title}
+											description={course.description}
+										/>
+									</div>
+								))}
+							</div>
 						</div>
 					</div>
-
-					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
-					</div>
-
 					<div className="page-footer">
 						<Footer />
 					</div>
@@ -87,5 +110,6 @@ const Contact = () => {
 		</React.Fragment>
 	);
 };
+
 
 export default Contact;

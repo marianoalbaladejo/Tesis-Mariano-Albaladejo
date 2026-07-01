@@ -21,7 +21,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`Thesis | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -30,7 +30,7 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="thesis" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
@@ -41,10 +41,7 @@ const About = () => {
 					<div className="about-container">
 						<div className="about-main">
 							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
-								</div>
-
+							<div className="title about-title">Thesis</div>
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>

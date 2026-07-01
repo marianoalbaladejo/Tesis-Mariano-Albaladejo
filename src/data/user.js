@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "PhD Thesis | Mariano Albaladejo González",
+		name: "Mariano Albaladejo González",
+		email: "mariano.albaladejog@um.es",
 		logo: "../logo.png",
 	},
 
@@ -16,9 +16,23 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Multimodal systems and artificial intelligence for the evaluation and improvement of professional training",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Over the last decade, Artificial Intelligence (AI) and multimodal systems have created new opportunities to improve the training and assessment of professionals. These technologies are especially valuable in contexts where practical expertise is essential. Examples include cybersecurity, healthcare, and teacher education. In these settings, professionals must develop not only technical competencies but also soft skills such as communication, stress management, and decision-making under pressure. Educational simulations, serious games, and other digital environments offer safe and controlled spaces for repeated practice. However, these environments also require meaningful assessment and feedback methods in order to support learning effectively. Given this context, the main purpose of this Ph.D. thesis is to explore and advance the use of AI and multimodal systems for the evaluation and improvement of professional training.",
+		author: "Mariano Albaladejo González",
+		location: "Universidad de Murcia, Facultad de Informática",
+		date: "20 September 2026",
+		supervisors: [
+			"José Antonio Ruipérez Valiente",
+			"Félix Gómez Mármol",
+		],
+		committee: [
+			"Dr. Ana Martínez",
+			"Dr. David López",
+			"Dr. Sara Fernández",
+		],
+		thesisType:
+			"This thesis is presented as a compendium of five articles and with international mention.",
 	},
 
 	about: {
@@ -35,46 +49,27 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "COBRA: Realistic Traffic and Network Scenarios for Cyber-Defence Training",
+			description: "The University of Murcia, together with the Technical University of Madrid and the company INDRA, has worked on the development of a Cyber Range for cybersecurity training. This project has been funded by the Spanishh Ministry of Defense.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com"
 		},
 
 		{
-			title: "Project 2",
+			title: "COBRA V2: Gamified and Customizable Hyperrealistic Cyber Range Simulations of APTs",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Extension of COBRA project to continue enhacing the capabilities of Cyber Range simulations.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "CITADEL Range: Cyber Infrastructure for Training in Advanced Defence Exercises and Learning",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"CITADEL Range will upgrade European cyber ranges defence technology by building advanced capabilities that enable cyber forces to conduct training, exercising, and mission rehearsal in realistic.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
