@@ -29,25 +29,25 @@ export const THESIS = {
 
 const publications = [
 	{
-		title: "Multimodal Learning Analytics for Assessing Soft Skills in Cyber-Defence Exercises",
+		title: "Artificial intelligence to support the training and assessment of professionals: A systematic literature review",
 		authors: [
 			"M. Albaladejo González",
 			"J. A. Ruipérez Valiente",
 			"F. Gómez Mármol",
 		],
-		journal: "IEEE Transactions on Learning Technologies",
+		journal: "ACM Computing Surveys",
 		year: 2024,
-		volume: "17",
-		pages: "512–528",
+		volume: "57 (3)",
+		pages: "1-29",
 		type: "Journal article",
 		status: "Published",
-		quartile: "Q1",
-		doi: "10.1109/TLT.2024.0000000",
-		url: "https://doi.org/10.1109/TLT.2024.0000000",
-		pdf: "/publications/paper-1.pdf",
-		tags: ["Multimodal analytics", "Cybersecurity", "Soft skills"],
+		quartile: "D1",
+		doi: "10.1145/3699712",
+		url: "https://dl.acm.org/doi/full/10.1145/3699712",
+		pdf: "/publications/sysReview.pdf",
+		tags: ["artificial intelligence", "data fusion", "workforce training", "professional competence"],
 		abstract:
-			"Cyber-defence training increasingly relies on realistic exercises where technical proficiency alone does not guarantee success. This work proposes a multimodal learning analytics pipeline that fuses network telemetry, interaction logs, and physiological signals to estimate soft-skill performance — communication, coordination, and decision-making under pressure — during team-based cyber ranges. We validate the approach on data collected from professional exercises and show that multimodal fusion outperforms single-source baselines when predicting expert-assigned competency scores.",
+			"Advances in Artificial Intelligence (AI) and sensors are significantly impacting multiple areas, including education and workplaces. Following the PRISMA methodology, this review explores the current status of using AI to support the training and assessment of professionals. We examined 83 research papers, analyzing (1) the targeted professionals, (2) the skills assessed, (3) the AI algorithms utilized, (4) the data and devices employed, (5) data fusion techniques utilized, (6) the architecture of the proposed platforms, (7) the management of ethics and privacy, and (8) validations of the proposals. The review highlights a trend in evaluating healthcare professionals (especially surgeons) motivated by the critical role of hands-on training in these professions. Besides, the review reveals that data fusion techniques and certain technologies, like transfer learning and explainable AI, are not widely utilized despite their huge potential. Finally, the review underscores that most proposals remain within the research domain, lacking the integration and maturity needed for sustained use in real-world environments. Therefore, most of the proposals are not currently available to support the training of professionals. The insights of this review can guide researchers aiming to improve the training of professionals and, consequently, their education.",
 	},
 	{
 		title: "Explainable Stress Estimation from Physiological Signals During High-Fidelity Clinical Simulations",

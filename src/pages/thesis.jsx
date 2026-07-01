@@ -55,7 +55,7 @@ const Thesis = () => {
 					<header className="thesis-hero reveal">
 						<span className="thesis-eyebrow">
 							<FontAwesomeIcon icon={faGraduationCap} />
-							Doctoral Thesis
+							Ph.D. Thesis
 						</span>
 
 						<h1 className="thesis-title">{THESIS.title}</h1>
